@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>TIC TAC TOE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./Assets/css/style.css" rel="stylesheet">
+        <script src="./Assets/js/main.js"></script>
+        <script src="./Assets/js/choose.js"></script>
+    </head>
+    <body>
+        <div class="content">
+        <div class="main_card">
+            <h1 class="titulo">TIC  TAC TOE !</h1>
+            <h2 id="winner" class="game_result"></h2>
+            <div class="game_tab">
+
+                <img id="game_tab_img" src="./Assets/img/tic_tac.png" >
+                <div class="objects_game">
+                    <div class="gb" onclick="game.playerPlay('a1')" ><canvas id="a1"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('a2')" ><canvas id="a2"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('a3')" ><canvas id="a3"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('b1')" ><canvas id="b1"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('b2')" ><canvas id="b2"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('b3')" ><canvas id="b3"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('c1')" ><canvas id="c1"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('c2')" ><canvas id="c2"></canvas>  </div>
+                    <div class="gb" onclick="game.playerPlay('c3')" ><canvas id="c3"></canvas>  </div>
+                   
+                </div>
+
+            </div>
+            
+        </div>
+        </div>
+    </body>
+</html>
